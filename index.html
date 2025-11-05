@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa Berprestasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        thead {
+            background-color: lightblue;
+        }
+
+        tfoot {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eef6ff
+        }
+
+        tbody tr:hover {
+            background-color: #d9f2ff
+
+        }
+
+        .tahun2025 {
+            background-color: #d9fdd3
+        }
+
+        .tahun2024 {
+            background-color: #fff5d9
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Daftar Mahasiswa Berprestasi Universitas Nusantara 2025</h1>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+        <caption>Data Mahasiswa Berprestasi Tahun 2024–2025</caption>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">No</th>
+                <th scope="col" colspan="2">Nama Mahasiswa</th>
+                <th scope="col" rowspan="2">Program Studi</th>
+                <th scope="col" rowspan="2">IPK</th>
+                <th scope="col" rowspan="2">Prestasi</th>
+                <th scope="col" rowspan="2">Tahun</th>
+            </tr>
+            <tr>
+                <th scope="col">Nama Depan</th>
+                <th scope="col">Nama Belakang</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="tahun2025">
+                <th scope="row">1</th>
+                <td>Elza</td>
+                <td>Nuzula</td>
+                <td>Pendidikan Bahasa Inggris</td>
+                <td rowspan="2">3.90</td>
+                <td>Juara 1 Lomba Debat Bahasa Inggris</td>
+                <td>2025</td>
+            </tr>
+            <tr class="tahun2025">
+                <th scope="row">2</th>
+                <td>Putra</td>
+                <td>Anugrah</td>
+                <td>Pendidikan Fisika</td>
+                <td>Juara 1 Karya Tulis Ilmiah</td>
+                <td>2025</td>
+            </tr>
+            <tr class="tahun2025">
+                <th scope="row">3</th>
+                <td>Tiara</td>
+                <td>Andini</td>
+                <td>Pendidikan Bahasa Indonesia</td>
+                <td>3.69</td>
+                <td>Lomba Cipta Puisi Nasional</td>
+                <td>2025</td>
+            </tr>
+            <tr class="tahun2024">
+                <th scope="row">4</th>
+                <td>Baskara</td>
+                <td>Putra</td>
+                <td>Pendidikan Matematika</td>
+                <td>3.67</td>
+                <td>Juara 2 Olimpiade Matematika</td>
+                <td>2024</td>
+            </tr>
+            <tr class="tahun2024">
+                <th scope="row">5</th>
+                <td>Nadin</td>
+                <td>Amizah</td>
+                <td>Pendidikan Biologi</td>
+                <td>3.65</td>
+                <td>Lomba Inovasi Pembelajaran Sains</td>
+                <td>2024</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="7">Total Mahasiswa: 5</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
